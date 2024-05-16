@@ -1,11 +1,20 @@
 .hamburger-menu {
-    position: sticky;
     margin: 2% 4%;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     display: flex;
     align-items: center;
+    z-index: 150;
 
+}
+
+.nav-scroll{
+    margin: 0;
+    padding: 1% 3%;
+    position: fixed;
+    top:0;
+    background-color: white;
+    width: 100%;
 }
 
 .menu-name {
@@ -52,6 +61,11 @@
 
     .hamburger-menu {
         justify-content: flex-end;
+        width: 90%;
+    }
+
+    .nav-scroll{
+        padding: 4% 3%;
     }
 
     .menu-items {
@@ -107,7 +121,7 @@
         margin: 0;
         height: 90vh;
         position: absolute;
-        top: 38px;
+        top: 60px;
         z-index: 1;
         bottom: 0;
         left: 70vw;
@@ -125,7 +139,7 @@
 
     .open .menu-items {
         transform: translateX(0%);
-        left: -10%;
+        left: 0;
         flex-direction: column;
         z-index: 13;
     }

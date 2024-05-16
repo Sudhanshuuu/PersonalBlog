@@ -11,13 +11,13 @@
 
 .blog-title{
     margin: 2%;
-    font-size: 3rem;
+    font-size: clamp(2rem ,4vw,3rem);
     font-family: 'Cormorant Garamond', serif;
 }
 
 .blog-que>div:nth-of-type(2n+1){
 margin: 2%;
-font-size: 2rem;
+font-size: clamp(1.5rem,3vw,2rem);
 color: rgba(0, 0, 0, 0.718);
 }
 
@@ -25,4 +25,11 @@ color: rgba(0, 0, 0, 0.718);
 margin: 1%;
 font-size: 1.1rem;
 color: rgba(0, 0, 0, 0.351);
+}
+
+@media  screen and (max-width:1000px) {
+    .blog{
+        width: 80%;
+        padding: 6%;
+    }
 }

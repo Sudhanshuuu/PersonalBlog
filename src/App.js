@@ -3,8 +3,8 @@ import Page from "./pages/Page";
 
 function App() {
   return (
-    <div className="App">
-    <BrowserRouter>
+    <div className="App" >
+    <BrowserRouter basename="/Blog">
       <Page />
     </BrowserRouter>
     </div>
