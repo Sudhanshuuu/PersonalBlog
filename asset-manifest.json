@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PersonalBlog/static/css/main.0659553d.css",
+    "main.js": "/PersonalBlog/static/js/main.159ccb81.js",
+    "static/media/shreya.jpg": "/PersonalBlog/static/media/shreya.fccac032282731b46e67.jpg",
+    "static/media/img2.jpg": "/PersonalBlog/static/media/img2.975a6dcdb57df85ece10.jpg",
+    "static/media/tanisha.jpg": "/PersonalBlog/static/media/tanisha.975a6dcdb57df85ece10.jpg",
+    "static/media/harshita.jpg": "/PersonalBlog/static/media/harshita.e1f1057d2bd505564d9e.jpg",
+    "static/media/img3.jpg": "/PersonalBlog/static/media/img3.e1f1057d2bd505564d9e.jpg",
+    "static/media/collage1.jpg": "/PersonalBlog/static/media/collage1.3ba9965de4e36a521099.jpg",
+    "static/media/collage6.jpg": "/PersonalBlog/static/media/collage6.39d016574e44a30f2099.jpg",
+    "static/media/collage5.jpg": "/PersonalBlog/static/media/collage5.62524c6c65bd3b2900ea.jpg",
+    "static/media/collage3.jpg": "/PersonalBlog/static/media/collage3.ef49104023895cd407ee.jpg",
+    "static/media/img1.jpg": "/PersonalBlog/static/media/img1.be30b6aba89383bd5aab.jpg",
+    "static/media/khushi.jpg": "/PersonalBlog/static/media/khushi.be30b6aba89383bd5aab.jpg",
+    "static/media/susu.jpg": "/PersonalBlog/static/media/susu.23fde775e09365e8b2e2.jpg",
+    "static/media/collage9.jpg": "/PersonalBlog/static/media/collage9.b6a717b938fa20c77aa6.jpg",
+    "static/media/collage2.jpeg": "/PersonalBlog/static/media/collage2.dcec73e665a0a04138b2.jpeg",
+    "index.html": "/PersonalBlog/index.html",
+    "main.0659553d.css.map": "/PersonalBlog/static/css/main.0659553d.css.map",
+    "main.159ccb81.js.map": "/PersonalBlog/static/js/main.159ccb81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0659553d.css",
+    "static/js/main.159ccb81.js"
+  ]
+}
