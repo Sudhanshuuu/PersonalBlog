@@ -142,7 +142,7 @@ a {
     padding: 5%;
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
-    font-size: clamp(1.5rem, 4vw, 5rem);
+    font-size: clamp(1.5rem, 3vw, 4rem);
 }
 
 .home-intro2>div>p:nth-of-type(1) {
@@ -189,6 +189,9 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+.home-collage{
+    width: 95%;
+}
 
 .home-collage>div {
     margin: 3% 0;
@@ -205,11 +208,17 @@ a {
 
 .home-collage>div>img {
     height: 45vh;
+    border-radius: 8px;
+    transition: all ease-in-out 400ms;
 }
 
 a:hover {
     color: #D14200;
 
+}
+
+.home-collage>div>img:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (max-width:750px) {
@@ -222,7 +231,12 @@ a:hover {
         flex-direction: column;
     }
 
+    .home-intro2{
+        margin: 5% 0;
+    }
+
     .home-intro3 {
+        margin: 5% 0;
         flex-direction: column;
     }
 
@@ -237,7 +251,7 @@ a:hover {
 
     .home-collage>div>img {
         margin: 1%;
-        width: 25vw;
+        width: 45%;
         height: auto;
     }
 }

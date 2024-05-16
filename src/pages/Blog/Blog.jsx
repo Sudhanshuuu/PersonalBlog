@@ -17,13 +17,13 @@ function Blog() {
         "My schedule is never the same; each week and day vary, but I do try to maintain a semi-routined schedule to stay on track and have a productive week. It's been really exciting being a part of this journey where I get to explore fashion and experiment with styling and designing. I often divide my day into parts where I have focused sessions for my work, and at other times, I like going out and exploring the city. During the lunch break at college, My favourite spot for having lunch is Dorema. The place is very soothing and serves delicious food. I don't like eating in the college mess. after having some good meal and attending all the lecture i run to catch the bus because it is very hectic to reach early.after reaching to the hostel i take a small 1 hour nap and gthen start doing my assingment while having dinner in my room.finishing all my chorses now i do my skin care and scroll through my social meadia and sleep. The most rewarding aspect would definitely be that every day I have something new to learn, and it never gets boring. The overall community is very supportive and positive, embracing their culture and uniqueness. I would like to pursue styling and direction. The biggest influence on my personal style has to be the 2000s era and retro styles. ",
         " A day in the life of a fashion student; well… where do I start? Being a design student can be hectic and stressful sometimes, but knowing ways to balance it can help a lot. Personally, I work in the 10 to 15-minute gaps throughout the day, finding these moments valuable for productivity. Additionally, I'm doing a graphic design internship with MyEquation.  The freedom to experiment with different styles and materials allows for a deep exploration of personal artistic expression, working on a variety of projects contributing to the development of a strong portfolio. The problem I face is budget constraints. Working within limited budgets for materials and projects is tough, but exploring cost-effective alternatives, repurposing materials, and learning to manage resources efficiently can be solutions. Consider collaborations with other students to share expenses. After having a break for lunch, mostly, we go to the mess. But other than that, we love to go to the Kong Shop right in front of our campus. As a Design student at the National Institute of Fashion Technology, my experience has been very happening, to be honest. I've overcome many new things, both good and bad, and learned to adjust to new people. Additionally, realizing that sometimes the simplest solutions can be the best is at the top of my list."];
 
-    let img = [Img2, Img1, Img3];
+    let img = [Img1, Img2, Img3];
 
     return (<div>
         <NavBar />
         <div className="blog">
             <div className="blog-title">Slice of {user[id - 1]}</div>
-            <img src={img[id-1]} alt="Img" />
+            <img src={img[id - 1]} alt="Img" />
             <div className="blog-que">
                 <div>About me</div>
                 <div>{story[id - 1]}</div>

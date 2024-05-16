@@ -3,16 +3,14 @@ import Img1 from "../../assets/khushi.jpg";
 import Img2 from "../../assets/tanisha.jpg";
 import Img3 from "../../assets/harshita.jpg";
 import Img4 from "../../assets/susu.jpg";
-import Img5 from "../../assets/shreya2.jpeg";
+import Img5 from "../../assets/shreya.jpg";
 
 import collage1 from "../../assets/collage1.jpg";
 import collage2 from "../../assets/collage2.jpeg";
 import collage3 from "../../assets/collage3.jpg";
-import collage4 from "../../assets/collage4.jpg";
-import collage5 from "../../assets/collage5.jpg";
 import collage9 from "../../assets/collage9.jpg";
-import collage7 from "../../assets/collage7.jpg";
-import collage8 from "../../assets/collage8.jpg";
+import collage5 from "../../assets/collage5.jpg";
+import collage6 from "../../assets/collage6.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -20,17 +18,22 @@ import "./Home.css";
 
 function Home() {
 
+    /*
+        
+
+
+    */
+
     return (
         <div className="Home">
             <NavBar />
-
             <div className="home-start">
-                <img src={Img5} alt="demo-pic" />
                 <div>
                     <p>Welcome To My Blog Site :) </p>
                     <img src={collage9} alt="demo-pic2" />
 
                 </div>
+                <img src={Img5} alt="demo-pic" />
             </div>
 
 
@@ -82,12 +85,13 @@ function Home() {
                 </div>
             </div>
 
+
             <div className="home-intro3">
                 <div>
                     <img src={Img4} alt="Img1" />
                 </div>
                 <div><p>About Me</p><p>"Hey there! I'm Shreya Thapa, a fashion communication student at NIFT Shillong.I like watching anime
-                    and hpooing into bakeries. When people discover I'm into fashion, their first question is, "Do you make your clothes?" Well,
+                    and hopping into bakeries. When people discover I'm into fashion, their first question is, "Do you make your clothes?" Well,
                     not yet, but it's a dream. Through this blog, I aim to share how my mates and I navigate the exciting world of fashion,
                     juggling studies and our vibrant fashion lifestyles. Join us on this journey as we strive to live our lives to the fullest,
                     finding motivation to keep pushing forward.
@@ -95,13 +99,12 @@ function Home() {
             </div>
 
             <div className="home-collage">
-                <div>Sneak Into My World</div>
+                <div>More Of Us</div>
                 <div>
                     <img src={collage1} alt="demo-pic" />
-                    <img src={collage8} alt="demo-pic" />
-                    <img src={collage3} alt="demo-pic" />
-                    <img src={collage4} alt="demo-pic" />
                     <img src={collage5} alt="demo-pic" />
+                    <img src={collage3} alt="demo-pic" />
+                    <img src={collage6} alt="demo-pic" />
 
                 </div>
 
