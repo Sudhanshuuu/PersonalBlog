@@ -46,7 +46,7 @@ function Home() {
                         <div><Link to="./1">Slice of Khushi Kholi</Link></div>
                         <div><Link to="./1">I'm an MFM, meaning my degree could lead me into almost any career in fashion.
                             Between lectures and lining up my sunglasses on top of my dresser, I study. This involves making
-                            what seems like a million mind maps and referencing every book and article I read ....
+                            what seems like million mind maps and referencing every book and article I read ....
                         </Link></div>
 
                     </div>
